@@ -1,0 +1,37 @@
+/**
+ * @author : Poonrni Amarathunga <poorniamarathunga097@gmail.com>
+ * @since : 11/26/20
+**/
+
+.cus-button{
+    right: 0;
+   padding: 10px;
+}
+.my-button{
+    float: right;
+}
+.btn-primary{
+    min-width: 100px;
+    text-align: center;
+}
+#table-header{
+    background-color: black;
+    color: white;
+}
+td{
+    text-align: center;
+}
+.col-name{
+    text-align: center;
+}
+.total-label{
+    font-size: 30px;
+    color: red;
+}
+#place-order-footer{
+    position: relative;
+}
+#place-order-button{
+    position: absolute;
+    right: 0;
+}

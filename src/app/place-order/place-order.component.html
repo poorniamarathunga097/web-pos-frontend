@@ -1,0 +1,124 @@
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+              <div class="row mb-2">
+                <div class="col-sm-6">
+                  <h1 class="m-0 text-dark">Place Order</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                  <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Place Order</li>
+                  </ol>
+                </div><!-- /.col -->
+              </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+          </div>
+        <!-- /.content-header -->
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+
+                <!-- Input addon -->
+                <div class="card card-info col-lg-12 col-12">
+                    <div class="card-header">
+                        <h3 class="card-title">Place an Order</h3>
+                    </div>
+                    <form role="form">
+                    <div class="card-body">
+                        <div class=" customer-buttons row">
+                            <div class="input-group col-lg-2 mb-3">
+                                <div class="form-group">
+                                    <select class="form-control select2bs4" style="width: 100%;">
+                                        <option selected="selected">Customer ID</option>
+                                        <option>Alaska</option>
+                                        <option>California</option>
+                                        <option>Delaware</option>
+                                        <option>Tennessee</option>
+                                        <option>Texas</option>
+                                        <option>Washington</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-group col-lg-5 mb-3">
+                                <input type="text" id="txt-full-name" class="form-control" placeholder="Full Name">
+                            </div>
+                            <div class="input-group col-lg-5 mb-3">
+                                <input type="text" class="form-control" id="txt-address" placeholder="Address">
+                            </div>
+                        </div>
+                        <div class=" customer-buttons row">
+                            <div class="input-group col-lg-2 mb-3">
+                                <div class="form-group">
+                               <select class="form-control select2bs4" style="width: 100%;">
+                                   <option selected="selected">Item Code</option>
+                                   <option>Alaska</option>
+                                   <option>California</option>
+                                   <option>Delaware</option>
+                                   <option>Tennessee</option>
+                                   <option>Texas</option>
+                                   <option>Washington</option>
+                               </select>
+                           </div>
+                            </div>
+                            <div class="input-group col-lg-4 mb-3">
+                                <input type="text" class="form-control" id="txt-description" placeholder="Description">
+                            </div>
+                            <div class="input-group col-lg-3 mb-3">
+                                <input type="text" class="form-control" id="txt-qtyOnHand" placeholder="Qty On Hand">
+                            </div>
+                            <div class="input-group col-lg-3 mb-3">
+                                <input type="text" class="form-control" id="txt-price" placeholder="Price">
+                            </div>
+                        </div>
+
+                        <div class=" my-button row">
+                            <div class="cus-button">
+                                <input type="text" class="form-control" id="txt-qty" placeholder="Qty">
+                            </div>
+                            <div class="cus-button">
+                                <button type="button" class="btn btn-primary">Add To Cart</button>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="row col-lg-12 col-12 card card-info">
+                        <div class="card-header col-12" id="table-header">
+                            <h3 class="card-title">Order Details</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0 col-12">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr class="col-12">
+                                    <th class="col-name">Item Code</th>
+                                    <th class="col-name">Description</th>
+                                    <th class="col-name">Unit Price</th>
+                                    <th class="col-name">Qty</th>
+                                    <th class="col-name">Total</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    <div class="my-button row" id="place-order-footer">
+                        <div class="cus-button">
+                            <label class="total-label">LKS:1000.00</label>
+                        </div>
+                        <div class="cus-button" id="place-order-button">
+                            <button type="submit" class="btn btn-primary">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+    </div>
